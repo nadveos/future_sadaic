@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#eff4ff","surface-container-high":"#dce9ff","tertiary":"#000000","secondary":"#006398","tertiary-container":"#2a1700","border-focus":"#0284C7","inverse-primary":"#b9c7e4","status-warning":"#F59E0B","surface-container":"#e5eeff","on-primary":"#ffffff","primary-fixed":"#d6e3ff","on-secondary-fixed":"#001d31","on-secondary":"#ffffff","background":"#f8f9ff","surface-container-lowest":"#ffffff","on-surface-variant":"#44474d","surface-variant":"#d3e4fe","on-primary-fixed":"#0d1c32","tertiary-fixed":"#ffddb8","accent-cyan":"#06B6D4","surface-tint":"#515f78","on-secondary-container":"#00476e","surface-container-highest":"#d3e4fe","on-tertiary-container":"#b87500","surface-canvas":"#F8FAFC","on-secondary-fixed-variant":"#004b73","inverse-on-surface":"#eaf1ff","surface":"#f8f9ff","text-primary":"#0F172A","on-primary-fixed-variant":"#39475f","tertiary-fixed-dim":"#ffb95f","surface-card":"#FFFFFF","outline-variant":"#c5c6cd","surface-subtle":"#F1F5F9","secondary-container":"#5bb8fe","surface-dim":"#cbdbf5","outline":"#75777e","secondary-fixed":"#cce5ff","on-error-container":"#93000a","error-container":"#ffdad6","text-muted":"#94A3B8","on-background":"#0b1c30","text-secondary":"#475569","primary":"#000000","on-error":"#ffffff","inverse-surface":"#213145","status-success":"#10B981","border-subtle":"#E2E8F0","error":"#ba1a1a","primary-container":"#0d1c32","status-error":"#EF4444","on-surface":"#0b1c30","secondary-fixed-dim":"#93ccff","primary-fixed-dim":"#b9c7e4","on-tertiary":"#ffffff","on-primary-container":"#76849f","on-tertiary-fixed-variant":"#653e00","on-tertiary-fixed":"#2a1700","surface-bright":"#f8f9ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter-mobile":"1rem",margin:"2rem","space-md":"1rem","space-xs":"0.25rem",gutter:"1.5rem","space-lg":"1.5rem","space-sm":"0.5rem","margin-mobile":"1rem","space-xl":"2.5rem"},fontFamily:{"label-lg":["Inter"],"display-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"headline-xl":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"label-lg":["14px",{lineHeight:"20px",fontWeight:"600"}],"display-lg-mobile":["36px",{lineHeight:"44px",fontWeight:"800"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"headline-xl":["36px",{lineHeight:"44px",fontWeight:"700"}],"label-sm":["11px",{lineHeight:"14px",fontWeight:"500"}],"headline-md":["22px",{lineHeight:"30px",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-xl-mobile":["28px",{lineHeight:"36px",fontWeight:"700"}],"display-lg":["48px",{lineHeight:"56px",fontWeight:"800"}],"headline-sm":["18px",{lineHeight:"26px",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col pt-5 pb-6"><div class="px-6 mb-6 flex items-center gap-space-sm"><img alt="SADAIC Logo Institucional" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WuS00d3hxOhTpO-PqtvfKVNQYueVDIetBJ_lY3MQwzI-ztSDLhiYSAg7SQM4tZyefAs09Hb6hTb2PJsv4cGjXGlDHMc_gkpbNFaTmXLVF0WqrY4tKy7FCBkZyNwShx3npWh_JzsEgPmz7eNbR_yhH9-0RcSNu9lUQg5ax-7011iENhJNXxXCcnmVRq31Uqfp0zogbwx2KDsS7A-hS2p0w4Yu8Zos40Q4PyAtbzDBiQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">SADAIC</span><span class="font-label-sm text-label-sm text-on-surface-variant">Socio en Línea</span></div></div><div class="px-4 mb-4"><div class="bg-primary-container text-on-primary-container p-3 rounded-lg flex items-center justify-between"><div class="flex flex-col"><span class="text-[10px] uppercase tracking-wider text-accent-cyan font-label-sm">Liquidación 2025/1</span><span class="font-label-md text-label-md text-on-primary">Estado: Emitida</span></div><span class="material-symbols-outlined text-status-warning text-[20px]">account_balance_wallet</span></div></div><nav class="flex-1 px-3 space-y-1 overflow-y-auto" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a aria-current="page" class="flex items-center px-3 py-2.5 transition-all bg-surface-container-high text-on-surface font-bold rounded-lg" data-path="autogestion-de-socios" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">dashboard</span>Resumen de Cuenta</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="registro-de-obras" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">library_music</span>Mis Obras Declaradas</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="consulta-de-repertorio" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">search</span>Catálogo y Obras</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="tramites-y-aranceles" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">receipt_long</span>Comprobantes y Pagos</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="inicio" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">public</span>Portal Institucional</a></nav><div class="px-4 pt-4 border-t border-border-subtle"><div class="flex items-center gap-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNPdCmk1T-Tqx8XMHfPGmBx48-BG8t7TXZbwnmIUOcWL2Ep9UjJFj1-JmJllfvQczzivjeBTfp1_BVA7C9GtS42_a-Tu5IrU8kw3LzjkBx5CarGDMS8uWz7MZkR2n8zkVevxn9355qLOWbmji0n2vQUITaXt1bK-S5SAOYPrIbw2HSA17RrsfsTs3m8zns0DybBD4jmbx_WRpj33i7aXAHT8xstPeXAGA3vVkFCT4"/><div class="flex flex-col min-w-0 flex-1"><span class="font-label-md text-label-md text-on-surface truncate">Autor / Compositor</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Legajo: AR-88412</span></div><a class="text-on-surface-variant hover:text-status-error p-1 rounded transition-colors" data-path="login" href="#" title="Cerrar sesión"><span class="material-symbols-outlined text-[18px]">logout</span></a></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[18px]">search</span><input class="bg-surface-container-low text-on-surface placeholder:text-text-muted pl-9 pr-4 py-1.5 rounded-lg text-body-sm font-body-sm w-72 lg:w-96 focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="Buscar por ISWC, título, número de obra..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="relative p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-accent-cyan"></span></button><div class="flex items-center gap-space-sm pl-space-sm border-l border-border-subtle"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNPdCmk1T-Tqx8XMHfPGmBx48-BG8t7TXZbwnmIUOcWL2Ep9UjJFj1-JmJllfvQczzivjeBTfp1_BVA7C9GtS42_a-Tu5IrU8kw3LzjkBx5CarGDMS8uWz7MZkR2n8zkVevxn9355qLOWbmji0n2vQUITaXt1bK-S5SAOYPrIbw2HSA17RrsfsTs3m8zns0DybBD4jmbx_WRpj33i7aXAHT8xstPeXAGA3vVkFCT4"/><span class="font-label-md text-label-md text-on-surface hidden md:block">Socio Activo</span></div></div></header><main class="relative pt-16 bg-surface w-full min-h-screen px-space-lg py-space-lg"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Status Quick-Bar -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm mb-space-md">
+<nav class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<a class="hover:text-secondary transition-colors" href="#">Inicio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-secondary transition-colors" href="#">Autogestión</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-semibold">Consulta y Trámites</span>
+</nav>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-3 py-1.5 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-status-success animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ventanilla Única Digital: <strong class="text-on-surface">Operativa 24/7</strong></span>
+<span class="text-border-subtle">|</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Resolución N° 412/2025</span>
+</div>
+</div>
+<!-- Socio Identity Card / Institutional Context Banner -->
+<div class="relative overflow-hidden rounded-xl bg-primary-container text-on-primary p-space-lg shadow-md mb-space-lg">
+<!-- Decorative subtle sonic visual pattern -->
+<div class="absolute -right-8 -top-8 w-64 h-64 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="absolute right-24 bottom-0 opacity-10 pointer-events-none">
+<svg class="text-accent-cyan" fill="none" height="90" viewbox="0 0 220 90" width="220">
+<rect fill="currentColor" height="30" rx="3" width="6" x="0" y="30"></rect>
+<rect fill="currentColor" height="60" rx="3" width="6" x="14" y="15"></rect>
+<rect fill="currentColor" height="80" rx="3" width="6" x="28" y="5"></rect>
+<rect fill="currentColor" height="46" rx="3" width="6" x="42" y="22"></rect>
+<rect fill="currentColor" height="20" rx="3" width="6" x="56" y="35"></rect>
+<rect fill="currentColor" height="66" rx="3" width="6" x="70" y="12"></rect>
+<rect fill="currentColor" height="86" rx="3" width="6" x="84" y="2"></rect>
+<rect fill="currentColor" height="34" rx="3" width="6" x="98" y="28"></rect>
+<rect fill="currentColor" height="10" rx="3" width="6" x="112" y="40"></rect>
+<rect fill="currentColor" height="54" rx="3" width="6" x="126" y="18"></rect>
+<rect fill="currentColor" height="74" rx="3" width="6" x="140" y="8"></rect>
+<rect fill="currentColor" height="40" rx="3" width="6" x="154" y="25"></rect>
+<rect fill="currentColor" height="14" rx="3" width="6" x="168" y="38"></rect>
+<rect fill="currentColor" height="50" rx="3" width="6" x="182" y="20"></rect>
+<rect fill="currentColor" height="26" rx="3" width="6" x="196" y="32"></rect>
+</svg>
+</div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="relative">
+<img class="w-16 h-16 rounded-xl object-cover ring-2 ring-accent-cyan/40 shadow-sm" data-alt="Black and white portrait photography of an iconic Argentine rock musician and composer with signature electric guitar and ambient concert stage backlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBm_B93M3070wmOy1miF2yUyH7ji0F8wqaYA4nE7vTfXOJQfJMkYtDngOnbhbXeSmnAuRwPAJMKzBRqSmYWR-fKu120vItNDkuzjag4RvMxCXpD-cS6JMlqeY-864xbgaWZTyqZ8j9u-Ii9HSEpG8ViZcuK8reHOfeD2-3s24S1X_CTrrDrfdIJrmHghkyG6Xd1hw-JW6tj7ZEhq9n_yY9trUyxmwd-lFEnAWZIZY"/>
+<span class="absolute -bottom-1 -right-1 bg-accent-cyan text-on-primary-fixed p-0.5 rounded-full flex items-center justify-center text-[13px] shadow">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h1 class="font-headline-md text-headline-md tracking-tight text-on-primary">Gustavo Adrián Cerati</h1>
+<span class="text-accent-cyan text-body-sm font-body-sm font-semibold">(Herederos Legales)</span>
+<span class="bg-surface-container-lowest/15 backdrop-blur-sm text-on-primary text-[11px] font-label-sm px-2.5 py-0.5 rounded-full tracking-wide">Socio Plenario</span>
+</div>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1 text-on-primary-container font-label-md text-label-md">
+<span>Legajo: <strong class="text-on-primary">AR-48.291-A</strong></span>
+<span>•</span>
+<span>CUIT: <strong class="text-on-primary">20-14285719-3</strong></span>
+<span>•</span>
+<span>Sociedad: <strong class="text-on-primary">SADAIC / CISAC</strong></span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-md bg-surface-container-lowest/10 backdrop-blur-md px-space-md py-space-sm rounded-lg self-start lg:self-auto">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-accent-cyan tracking-wider uppercase">Estado de Cuenta</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-status-success text-[18px]">check_circle</span>
+            Al Día
+          </span>
+<span class="font-body-sm text-body-sm text-on-primary-container text-xs">Liquidación: <strong class="text-on-primary">15 de Noviembre</strong></span>
+</div>
+<a class="ml-2 px-3 py-1.5 rounded-lg bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 text-on-primary font-label-sm text-label-sm transition-all flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+          Extracto
+        </a>
+</div>
+</div>
+</div>
+<!-- Gestión Rápida Flow Tabs -->
+<div class="flex items-center overflow-x-auto gap-space-xs pb-1 mb-space-lg no-scrollbar border-b border-border-subtle">
+<button class="group flex items-center gap-space-xs px-space-md py-3 text-secondary font-label-lg text-label-lg border-b-2 border-secondary whitespace-nowrap" type="button">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+<span>Consulta Rápida y Reclamos de Liquidación</span>
+<span class="bg-surface-container-high text-secondary text-[11px] px-2 py-0.5 rounded-full font-bold">Activo</span>
+</button>
+<button class="group flex items-center gap-space-xs px-space-md py-3 text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg border-b-2 border-transparent hover:border-border-subtle whitespace-nowrap transition-all" type="button">
+<span class="material-symbols-outlined text-[20px] text-text-muted group-hover:text-on-surface">stadium</span>
+<span>Planillas de Actuación en Vivo</span>
+</button>
+<button class="group flex items-center gap-space-xs px-space-md py-3 text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg border-b-2 border-transparent hover:border-border-subtle whitespace-nowrap transition-all" type="button">
+<span class="material-symbols-outlined text-[20px] text-text-muted group-hover:text-on-surface">queue_music</span>
+<span>Registro Express de Obra Musical</span>
+</button>
+<button class="group flex items-center gap-space-xs px-space-md py-3 text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg border-b-2 border-transparent hover:border-border-subtle whitespace-nowrap transition-all" type="button">
+<span class="material-symbols-outlined text-[20px] text-text-muted group-hover:text-on-surface">account_balance</span>
+<span>Datos Bancarios (CBU/Alias) y Fiscales</span>
+</button>
+</div>
+<!-- Main Grid: Interactive Form (2/3) + Institutional Widgets (1/3) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT COLUMN: Formulario Dinámico -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Interactive Step Header -->
+<div class="bg-surface-container-low px-space-lg py-space-md">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Nueva Presentación / Reclamo de Regalías</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Complete los datos de la difusión para auditoría en el Departamento de Recaudación y Liquidaciones.</p>
+</div>
+<div class="hidden sm:flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant bg-surface-container-lowest px-3 py-1 rounded-full shadow-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">lock</span>
+              Firma Digital Ley 25.506
+            </div>
+</div>
+<!-- Stepper Visualizer -->
+<div class="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-surface-container">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm flex items-center justify-center">1</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Solicitante</span>
+<span class="font-body-sm text-body-sm text-secondary text-[11px]">Validado</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm flex items-center justify-center ring-2 ring-accent-cyan">2</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Obra y Difusión</span>
+<span class="font-body-sm text-body-sm text-accent-cyan text-[11px] font-medium">Paso en curso</span>
+</div>
+</div>
+<div class="flex items-center gap-2 opacity-60">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm flex items-center justify-center">3</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Pruebas y Envío</span>
+<span class="font-body-sm text-body-sm text-text-muted text-[11px]">Pendiente</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Form Body -->
+<form class="p-space-lg space-y-space-lg" id="sadaicClaimForm" onsubmit="event.preventDefault(); submitClaim();">
+<!-- Category Selection -->
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+              Tipo de Consulta / Objeto del Reclamo <span class="text-error">*</span>
+</label>
+<div class="relative">
+<select class="w-full h-11 bg-surface-container-lowest text-on-surface px-3.5 pr-10 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md transition-all appearance-none cursor-pointer" required="">
+<option value="">Seleccione el concepto formal del trámite...</option>
+<option selected="" value="reclamo-liquidada">Reclamo por Obra No Liquidada en Período Ordinario</option>
+<option value="streaming">Consulta de Liquidación Digital (Spotify, YouTube Music, Apple Music)</option>
+<option value="vivo">Acreditación de Concierto / Festival Masivo (Planilla de Actuación)</option>
+<option value="certificado">Certificado de Registro de Obra para Producción Fonográfica</option>
+<option value="internacional">Regalías de Ejecución Pública en el Exterior (CISAC / SGAE / BMI)</option>
+<option value="otro">Otro trámite administrativo / Mesa de Entradas</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Los reclamos por streaming requieren adjuntar captura de analytics o código ISRC del máster asociado.</p>
+</div>
+<!-- Obra Selection + ISWC Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Título con Autocomplete de Repertorio -->
+<div class="md:col-span-7 space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+                Título de la Obra Declarada <span class="text-error">*</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[18px]">music_note</span>
+<input class="w-full h-11 bg-surface-container-lowest text-on-surface pl-10 pr-10 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="obraInput" list="repertorio-autor" placeholder="Escriba el nombre de la canción..." required="" type="text" value="Crimen (Fuerza Natural)"/>
+<datalist id="repertorio-autor">
+<option value="Crimen (Ahí Vamos)"></option>
+<option value="Puente (Bocanada)"></option>
+<option value="De Música Ligera (Canción Animal)"></option>
+<option value="Fuerza Natural (Fuerza Natural)"></option>
+<option value="Persiana Americana (Signos)"></option>
+<option value="Adiós (Ahí Vamos)"></option>
+<option value="Cosas Imposibles (Siempre Es Hoy)"></option>
+<option value="Lago en el Cielo (Ahí Vamos)"></option>
+</datalist>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-status-success text-[18px]" title="Obra verificada en catálogo">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted text-[11px] block">Registro SADAIC vinculado: <strong>#88.194-L</strong> | 100% Derechos Autorales</span>
+</div>
+<!-- Código ISWC / Registro -->
+<div class="md:col-span-5 space-y-space-xs">
+<label class="flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span>Código ISWC (Opcional)</span>
+<span class="text-secondary cursor-pointer hover:underline text-[11px]" onclick="document.getElementById('iswcHelpModal').classList.toggle('hidden')">¿Qué es?</span>
+</label>
+<div class="relative">
+<input class="w-full h-11 bg-surface-container-lowest text-on-surface px-3 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md uppercase font-mono" placeholder="T-000.000.000-0" type="text" value="T-037.291.849-4"/>
+<span class="material-symbols-outlined absolute right-3 top-2.5 text-on-surface-variant text-[18px]">info</span>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted text-[11px] block">Identificador global de repertorio musical CISAC</span>
+</div>
+</div>
+<!-- Ámbito / Medio de Difusión (Interactive Radio Pills) -->
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+              Medio o Ámbito de Ejecución Musical <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-sm">
+<label class="relative flex flex-col items-center justify-center p-3 rounded-xl bg-surface-container cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:bg-primary-container has-[:checked]:text-on-primary shadow-xs">
+<input checked="" class="sr-only" name="medio-ejecucion" type="radio" value="digital"/>
+<span class="material-symbols-outlined text-[24px] mb-1">podcasts</span>
+<span class="font-label-md text-label-md text-center">Streaming / Digital</span>
+<span class="text-[10px] opacity-75">DSP & Video Web</span>
+</label>
+<label class="relative flex flex-col items-center justify-center p-3 rounded-xl bg-surface-container cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:bg-primary-container has-[:checked]:text-on-primary shadow-xs">
+<input class="sr-only" name="medio-ejecucion" type="radio" value="vivo"/>
+<span class="material-symbols-outlined text-[24px] mb-1">stadium</span>
+<span class="font-label-md text-label-md text-center">Show en Vivo</span>
+<span class="text-[10px] opacity-75">Festivales / Giras</span>
+</label>
+<label class="relative flex flex-col items-center justify-center p-3 rounded-xl bg-surface-container cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:bg-primary-container has-[:checked]:text-on-primary shadow-xs">
+<input class="sr-only" name="medio-ejecucion" type="radio" value="broadcast"/>
+<span class="material-symbols-outlined text-[24px] mb-1">tv_gen</span>
+<span class="font-label-md text-label-md text-center">Radio & TV Abierta</span>
+<span class="text-[10px] opacity-75">Emisión Nacional</span>
+</label>
+<label class="relative flex flex-col items-center justify-center p-3 rounded-xl bg-surface-container cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:bg-primary-container has-[:checked]:text-on-primary shadow-xs">
+<input class="sr-only" name="medio-ejecucion" type="radio" value="cine"/>
+<span class="material-symbols-outlined text-[24px] mb-1">movie</span>
+<span class="font-label-md text-label-md text-center">Cine & Teatro</span>
+<span class="text-[10px] opacity-75">Sincronización</span>
+</label>
+</div>
+</div>
+<!-- Fechas y Productora / Emisora -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+                Fecha o Período del Hecho Artístico <span class="text-error">*</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[18px]">calendar_today</span>
+<input class="w-full h-11 bg-surface-container-lowest text-on-surface pl-10 pr-3 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" required="" type="date" value="2025-01-18"/>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted text-[11px]">Si fue una gira, ingrese la fecha de inicio del ciclo.</span>
+</div>
+<div class="space-y-space-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+                Lugar, Emisora, o Plataforma Digital <span class="text-error">*</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[18px]">location_on</span>
+<input class="w-full h-11 bg-surface-container-lowest text-on-surface pl-10 pr-3 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" placeholder="Ej: Movistar Arena / Radio Mitre / Spotify Arg" required="" type="text" value="Festival Cosquín Rock / Escenario Sur"/>
+</div>
+<span class="font-body-sm text-body-sm text-text-muted text-[11px]">Indique productora u organizador responsable si lo conoce.</span>
+</div>
+</div>
+<!-- Documentación de Respaldo (Drag & Drop High Touch) -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md text-on-surface">
+                Comprobantes de Respaldo y Documentación (PDF, JPG, PNG, MP3)
+              </label>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Hasta 25 MB</span>
+</div>
+<div class="relative group p-6 rounded-xl bg-surface-container-low/70 hover:bg-surface-container-low transition-all text-center flex flex-col items-center justify-center cursor-pointer" id="dropZone">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center text-secondary shadow-sm mb-2 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">cloud_upload</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface">
+                Arrastre aquí los archivos o <span class="text-secondary underline">explore su dispositivo</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-1">
+                Planillas de actuación con firma de productor, entradas/borderó, afiches promocionales o capturas de analytics streaming.
+              </p>
+<input class="absolute inset-0 opacity-0 cursor-pointer" multiple="" onchange="handleFileSelect(this)" type="file"/>
+</div>
+<!-- Uploaded file chips preview -->
+<div class="flex flex-wrap gap-2 mt-2" id="fileList">
+<div class="flex items-center gap-2 bg-surface-container px-3 py-1.5 rounded-lg text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[16px]">picture_as_pdf</span>
+<span class="font-label-sm text-label-sm truncate max-w-[200px]">Planilla_Cosquin_Firmada.pdf</span>
+<span class="text-[11px] text-text-muted">1.4 MB</span>
+<button class="hover:text-error transition-colors ml-1" onclick="this.parentElement.remove()" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-1.5 rounded-lg text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-accent-cyan text-[16px]">image</span>
+<span class="font-label-sm text-label-sm truncate max-w-[200px]">Ticket_Bordero_Oficial.jpg</span>
+<span class="text-[11px] text-text-muted">840 KB</span>
+<button class="hover:text-error transition-colors ml-1" onclick="this.parentElement.remove()" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Mensaje Explicativo -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<label class="block font-label-md text-label-md text-on-surface">
+                Aclaraciones Adicionales para el Liquidador <span class="text-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-text-muted" id="charCount">142 / 1000</span>
+</div>
+<textarea class="w-full bg-surface-container-lowest text-on-surface p-3.5 rounded-lg shadow-xs focus:outline-none focus:ring-2 focus:ring-secondary font-body-md text-body-md" id="claimDetails" oninput="updateCharCount(this)" placeholder="Detalle minutos de ejecución, porcentaje de autoría reclamado, temas en popurrí o cualquier observación de interés..." required="" rows="3">Se solicita auditoría del concierto del 18 de enero donde la obra 'Crimen' fue interpretada en el setlist principal. La productora no remitió la planilla oficial de recaudación dentro del plazo habitual de 30 días.</textarea>
+</div>
+<!-- Terms acceptance -->
+<div class="flex items-start gap-space-sm bg-surface-container-low p-3.5 rounded-lg">
+<input checked="" class="mt-0.5 w-4 h-4 rounded text-secondary focus:ring-secondary cursor-pointer" id="terms" required="" type="checkbox"/>
+<label class="font-body-sm text-body-sm text-on-surface select-none cursor-pointer" for="terms">
+              Declaro bajo juramento que los datos suministrados son fidedignos y corresponden a la titularidad de los derechos patrimoniales y morales amparados por la Ley 11.723 de Propiedad Intelectual.
+            </label>
+</div>
+<!-- Action Buttons Bar -->
+<div class="pt-space-md border-t border-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors flex items-center justify-center gap-1.5 shadow-xs" onclick="saveDraft()" type="button">
+<span class="material-symbols-outlined text-[18px]">save</span>
+                Guardar Borrador
+              </button>
+<button class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-lg text-label-lg transition-colors flex items-center justify-center gap-1.5 shadow-xs" onclick="previewPDF()" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+                Descargar Comprobante
+              </button>
+</div>
+<button class="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-primary hover:bg-surface-container-highest hover:text-on-surface text-on-primary font-label-lg text-label-lg transition-all flex items-center justify-center gap-2 shadow-sm group" type="submit">
+<span>Enviar Consulta con Firma Digital</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-0.5 transition-transform">send</span>
+</button>
+</div>
+</form>
+<!-- Dynamic Success Toast (Hidden by default) -->
+<div class="hidden m-space-lg p-4 rounded-xl bg-status-success/10 text-on-surface flex items-start gap-space-md transition-all" id="toastSuccess">
+<span class="material-symbols-outlined text-status-success text-[26px]">task_alt</span>
+<div class="flex-1">
+<h4 class="font-headline-sm text-headline-sm text-status-success font-bold">¡Trámite N° TR-8902 Ingresado con Éxito!</h4>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">
+              El reclamo ha sido incorporado al sistema de Auditoría de Liquidaciones. Se ha enviado una constancia firmada digitalmente al correo legal del derechohabiente con copia de respaldo.
+            </p>
+<div class="mt-3 flex items-center gap-3">
+<button class="bg-status-success text-on-primary px-3 py-1.5 rounded-lg font-label-sm text-label-sm font-semibold" type="button">Descargar Ticket PDF</button>
+<button class="text-on-surface-variant font-label-sm text-label-sm hover:underline" onclick="document.getElementById('toastSuccess').classList.add('hidden')" type="button">Cerrar notificación</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Institutional Notice / Legal Assurance Banner -->
+<div class="rounded-xl bg-surface-container-low p-space-md flex items-center gap-space-md shadow-xs">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[22px]">gavel</span>
+</div>
+<div class="flex-1">
+<h4 class="font-label-md text-label-md text-on-surface font-bold">Normativa sobre Declaración Extemporánea de Obras</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">
+            Los reclamos por transmisiones televisivas o festivales tienen un período de prescripción administrativa de 24 meses computados desde el cierre del semestre de emisión. Para más datos consulte el Estatuto Social de SADAIC Art. 54.
+          </p>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Side Panels (Trámites Recientes, Soporte Exclusivo & Documentación) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Widget: Mis Trámites Activos -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">pending_actions</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-base">Mis Trámites Activos</h3>
+</div>
+<span class="bg-surface-container-high text-secondary text-[11px] font-label-sm px-2 py-0.5 rounded-full font-bold">2 en curso</span>
+</div>
+<div class="space-y-space-sm">
+<!-- Item 1 -->
+<div class="p-3 rounded-lg bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="flex items-start justify-between gap-2">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Liquidación Festivales Enero</span>
+<span class="bg-status-warning/15 text-status-warning text-[10px] font-label-sm px-2 py-0.5 rounded-full font-bold whitespace-nowrap">
+                Auditoría Legal
+              </span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm text-xs mt-1.5">
+<span>N° TR-8821</span>
+<span>Iniciado: 04/02/2025</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-2">
+<div class="bg-status-warning h-1.5 rounded-full w-2/3"></div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-3 rounded-lg bg-surface-container-low/60 hover:bg-surface-container-low transition-colors">
+<div class="flex items-start justify-between gap-2">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Alta Obra 'Puente Luminoso'</span>
+<span class="bg-status-success/15 text-status-success text-[10px] font-label-sm px-2 py-0.5 rounded-full font-bold whitespace-nowrap">
+                Registrada
+              </span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm text-xs mt-1.5">
+<span>N° TR-8740</span>
+<span>ISWC: T-037.994.112-0</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-1.5 mt-2">
+<div class="bg-status-success h-1.5 rounded-full w-full"></div>
+</div>
+</div>
+</div>
+<button class="w-full mt-3 py-2 text-center text-secondary hover:text-on-secondary-container font-label-sm text-label-sm font-semibold transition-colors flex items-center justify-center gap-1" type="button">
+<span>Ver historial completo de expedientes</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Widget: Canales de Asistencia Exclusiva para Autores -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center gap-space-xs pb-space-sm border-b border-surface-container mb-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">support_agent</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-base">Atención para Socios</h3>
+</div>
+<div class="space-y-space-sm">
+<!-- WhatsApp directo -->
+<a class="flex items-center gap-space-sm p-3 rounded-lg bg-surface-container-low/50 hover:bg-surface-container-high transition-all group" href="https://wa.me/541143707700" target="_blank">
+<div class="w-9 h-9 rounded-full bg-status-success/15 text-status-success flex items-center justify-center group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">WhatsApp Oficial Socios</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-xs">+54 11 4370-7700 (Lunes a Viernes 9 a 17h)</span>
+</div>
+</a>
+<!-- Correo especializado -->
+<a class="flex items-center gap-space-sm p-3 rounded-lg bg-surface-container-low/50 hover:bg-surface-container-high transition-all group" href="mailto:socios@sadaic.org.ar">
+<div class="w-9 h-9 rounded-full bg-secondary/15 text-secondary flex items-center justify-center group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Correo de Liquidaciones</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-xs">socios@sadaic.org.ar</span>
+</div>
+</a>
+<!-- Mesa de Entradas Presencial -->
+<div class="flex items-center gap-space-sm p-3 rounded-lg bg-surface-container-low/50">
+<div class="w-9 h-9 rounded-full bg-surface-container-highest text-on-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">corporate_fare</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Sede Central Lavalle</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-xs">Lavalle 1547, CABA | Turnos Online</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Widget: Descarga de Guías Oficiales -->
+<div class="bg-primary-container text-on-primary rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-accent-cyan text-[20px]">menu_book</span>
+<h3 class="font-headline-sm text-headline-sm text-base text-on-primary">Material Normativo 2025</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container text-xs mb-3">
+          Consulte los instructivos oficiales actualizados para maximizar la recaudación de su repertorio musical.
+        </p>
+<div class="space-y-2">
+<a class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-colors text-on-primary" href="#">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-cyan text-[18px]">download_for_offline</span>
+<span class="font-label-sm text-label-sm">Manual de Declaración de Obras (PDF)</span>
+</div>
+<span class="text-[10px] text-accent-cyan font-mono">2.8 MB</span>
+</a>
+<a class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 transition-colors text-on-primary" href="#">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-cyan text-[18px]">download_for_offline</span>
+<span class="font-label-sm text-label-sm">Guía de Liquidación Streaming 2025</span>
+</div>
+<span class="text-[10px] text-accent-cyan font-mono">1.9 MB</span>
+</a>
+</div>
+</div>
+<!-- Visual Repertoire Showcase Thumbnail -->
+<div class="rounded-xl overflow-hidden shadow-sm relative group bg-surface-container-low">
+<img class="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High resolution detailed studio vinyl record player with acoustic score sheet and Argentinian musical instruments on a mahogany desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa4pUfkbCrCoP91T4ClAyaSjmDm7Wn5ueSmlLLVo0cRIQRj1Qw_fj6XiLYu6MaYdE9atotIfaVTbJLM6o4jk5vubhNB27gUgKVdz5VX5ktgjkGaO9Tmzh0wFeXZZc6ZQ679AST5LxecOGq9hWMADafUPdMbWf9tPO0llu63BNQX-oSMxzEji05n_g1cAv2XjnBR-ZuUhJvVsHtJS-lXsJRuYlmoOR18ocddxwqW04"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent p-3 flex flex-col justify-end">
+<span class="font-label-sm text-label-sm text-accent-cyan uppercase tracking-wider">Patrimonio Musical Argentino</span>
+<span class="font-label-md text-label-md text-on-primary font-bold">Protegiendo más de 85 años de creaciones sonoras</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Auxiliary Modal Help: ISWC (Hidden by default) -->
+<div class="hidden fixed inset-0 z-50 bg-primary/60 backdrop-blur-sm flex items-center justify-center p-4" id="iswcHelpModal">
+<div class="bg-surface-container-lowest max-w-md w-full rounded-2xl p-space-lg shadow-xl relative animate-in fade-in zoom-in duration-200">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface p-1" onclick="document.getElementById('iswcHelpModal').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="w-12 h-12 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-[24px]">pin</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">¿Qué es el código ISWC?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mb-3">
+        El <strong>Código Internacional Estándar para Obras Musicales</strong> (ISWC) es un identificador único global (similar al ISBN de un libro) que la confederación internacional CISAC asigna a cada composición registrada ante SADAIC.
+      </p>
+<div class="bg-surface-container-low p-3 rounded-lg text-xs font-mono text-secondary mb-4">
+        Formato estándar: T-037.291.849-4
+      </div>
+<button class="w-full py-2 bg-primary text-on-primary font-label-md text-label-md rounded-lg hover:bg-surface-container-highest hover:text-on-surface transition-colors" onclick="document.getElementById('iswcHelpModal').classList.add('hidden')" type="button">
+        Entendido
+      </button>
+</div>
+</div>
+<!-- Interactive JavaScript Controller -->
+<script>
+    function updateCharCount(textarea) {
+      const current = textarea.value.length;
+      const countDisplay = document.getElementById('charCount');
+      if (countDisplay) {
+        countDisplay.textContent = current + ' / 1000';
+      }
+    }
+
+    function handleFileSelect(input) {
+      const list = document.getElementById('fileList');
+      if (input.files && input.files.length > 0) {
+        Array.from(input.files).forEach(file => {
+          const chip = document.createElement('div');
+          chip.className = 'flex items-center gap-2 bg-surface-container px-3 py-1.5 rounded-lg text-body-sm text-on-surface';
+          chip.innerHTML = `
+            <span class="material-symbols-outlined text-secondary text-[16px]">attachment</span>
+            <span class="font-label-sm text-label-sm truncate max-w-[200px]">${file.name}</span>
+            <span class="text-[11px] text-text-muted">${(file.size / 1024).toFixed(0)} KB</span>
+            <button type="button" class="hover:text-error transition-colors ml-1" onclick="this.parentElement.remove()">
+              <span class="material-symbols-outlined text-[14px]">close</span>
+            </button>
+          `;
+          list.appendChild(chip);
+        });
+      }
+    }
+
+    function submitClaim() {
+      const toast = document.getElementById('toastSuccess');
+      if (toast) {
+        toast.classList.remove('hidden');
+        toast.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function saveDraft() {
+      const obra = document.getElementById('obraInput').value;
+      alert(`Borrador guardado exitosamente para "${obra || 'Obra sin título'}". Podrá continuar la gestión desde la sección Mis Borradores.`);
+    }
+
+    function previewPDF() {
+      window.print();
+    }
+  </script>
+</div></main></div></body></html>

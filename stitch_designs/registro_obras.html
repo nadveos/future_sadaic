@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#eff4ff","surface-container-high":"#dce9ff","tertiary":"#000000","secondary":"#006398","tertiary-container":"#2a1700","border-focus":"#0284C7","inverse-primary":"#b9c7e4","status-warning":"#F59E0B","surface-container":"#e5eeff","on-primary":"#ffffff","primary-fixed":"#d6e3ff","on-secondary-fixed":"#001d31","on-secondary":"#ffffff","background":"#f8f9ff","surface-container-lowest":"#ffffff","on-surface-variant":"#44474d","surface-variant":"#d3e4fe","on-primary-fixed":"#0d1c32","tertiary-fixed":"#ffddb8","accent-cyan":"#06B6D4","surface-tint":"#515f78","on-secondary-container":"#00476e","surface-container-highest":"#d3e4fe","on-tertiary-container":"#b87500","surface-canvas":"#F8FAFC","on-secondary-fixed-variant":"#004b73","inverse-on-surface":"#eaf1ff","surface":"#f8f9ff","text-primary":"#0F172A","on-primary-fixed-variant":"#39475f","tertiary-fixed-dim":"#ffb95f","surface-card":"#FFFFFF","outline-variant":"#c5c6cd","surface-subtle":"#F1F5F9","secondary-container":"#5bb8fe","surface-dim":"#cbdbf5","outline":"#75777e","secondary-fixed":"#cce5ff","on-error-container":"#93000a","error-container":"#ffdad6","text-muted":"#94A3B8","on-background":"#0b1c30","text-secondary":"#475569","primary":"#000000","on-error":"#ffffff","inverse-surface":"#213145","status-success":"#10B981","border-subtle":"#E2E8F0","error":"#ba1a1a","primary-container":"#0d1c32","status-error":"#EF4444","on-surface":"#0b1c30","secondary-fixed-dim":"#93ccff","primary-fixed-dim":"#b9c7e4","on-tertiary":"#ffffff","on-primary-container":"#76849f","on-tertiary-fixed-variant":"#653e00","on-tertiary-fixed":"#2a1700","surface-bright":"#f8f9ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter-mobile":"1rem",margin:"2rem","space-md":"1rem","space-xs":"0.25rem",gutter:"1.5rem","space-lg":"1.5rem","space-sm":"0.5rem","margin-mobile":"1rem","space-xl":"2.5rem"},fontFamily:{"label-lg":["Inter"],"display-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"headline-xl":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"label-lg":["14px",{lineHeight:"20px",fontWeight:"600"}],"display-lg-mobile":["36px",{lineHeight:"44px",fontWeight:"800"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"headline-xl":["36px",{lineHeight:"44px",fontWeight:"700"}],"label-sm":["11px",{lineHeight:"14px",fontWeight:"500"}],"headline-md":["22px",{lineHeight:"30px",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-xl-mobile":["28px",{lineHeight:"36px",fontWeight:"700"}],"display-lg":["48px",{lineHeight:"56px",fontWeight:"800"}],"headline-sm":["18px",{lineHeight:"26px",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col pt-5 pb-6"><div class="px-6 mb-6 flex items-center gap-space-sm"><img alt="SADAIC Logo Institucional" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WuS00d3hxOhTpO-PqtvfKVNQYueVDIetBJ_lY3MQwzI-ztSDLhiYSAg7SQM4tZyefAs09Hb6hTb2PJsv4cGjXGlDHMc_gkpbNFaTmXLVF0WqrY4tKy7FCBkZyNwShx3npWh_JzsEgPmz7eNbR_yhH9-0RcSNu9lUQg5ax-7011iENhJNXxXCcnmVRq31Uqfp0zogbwx2KDsS7A-hS2p0w4Yu8Zos40Q4PyAtbzDBiQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight">SADAIC</span><span class="font-label-sm text-label-sm text-on-surface-variant">Socio en Línea</span></div></div><div class="px-4 mb-4"><div class="bg-primary-container text-on-primary-container p-3 rounded-lg flex items-center justify-between"><div class="flex flex-col"><span class="text-[10px] uppercase tracking-wider text-accent-cyan font-label-sm">Liquidación 2025/1</span><span class="font-label-md text-label-md text-on-primary">Estado: Emitida</span></div><span class="material-symbols-outlined text-status-warning text-[20px]">account_balance_wallet</span></div></div><nav class="flex-1 px-3 space-y-1 overflow-y-auto" data-active-classes="bg-surface-container-high text-on-surface font-bold rounded-lg"><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="autogestion-de-socios" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">dashboard</span>Resumen de Cuenta</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="registro-de-obras" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">library_music</span>Mis Obras Declaradas</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="consulta-de-repertorio" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">search</span>Catálogo y Obras</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="tramites-y-aranceles" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">receipt_long</span>Comprobantes y Pagos</a><a class="flex items-center px-3 py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all font-label-md text-label-md" data-path="inicio" href="#"><span class="material-symbols-outlined mr-3 text-[20px]">public</span>Portal Institucional</a></nav><div class="px-4 pt-4 border-t border-border-subtle"><div class="flex items-center gap-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNPdCmk1T-Tqx8XMHfPGmBx48-BG8t7TXZbwnmIUOcWL2Ep9UjJFj1-JmJllfvQczzivjeBTfp1_BVA7C9GtS42_a-Tu5IrU8kw3LzjkBx5CarGDMS8uWz7MZkR2n8zkVevxn9355qLOWbmji0n2vQUITaXt1bK-S5SAOYPrIbw2HSA17RrsfsTs3m8zns0DybBD4jmbx_WRpj33i7aXAHT8xstPeXAGA3vVkFCT4"/><div class="flex flex-col min-w-0 flex-1"><span class="font-label-md text-label-md text-on-surface truncate">Autor / Compositor</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Legajo: AR-88412</span></div><a class="text-on-surface-variant hover:text-status-error p-1 rounded transition-colors" data-path="login" href="#" title="Cerrar sesión"><span class="material-symbols-outlined text-[18px]">logout</span></a></div></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md"><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[18px]">search</span><input class="bg-surface-container-low text-on-surface placeholder:text-text-muted pl-9 pr-4 py-1.5 rounded-lg text-body-sm font-body-sm w-72 lg:w-96 focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="Buscar por ISWC, título, número de obra..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="relative p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-accent-cyan"></span></button><div class="flex items-center gap-space-sm pl-space-sm border-l border-border-subtle"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNPdCmk1T-Tqx8XMHfPGmBx48-BG8t7TXZbwnmIUOcWL2Ep9UjJFj1-JmJllfvQczzivjeBTfp1_BVA7C9GtS42_a-Tu5IrU8kw3LzjkBx5CarGDMS8uWz7MZkR2n8zkVevxn9355qLOWbmji0n2vQUITaXt1bK-S5SAOYPrIbw2HSA17RrsfsTs3m8zns0DybBD4jmbx_WRpj33i7aXAHT8xstPeXAGA3vVkFCT4"/><span class="font-label-md text-label-md text-on-surface hidden md:block">Socio Activo</span></div></div></header><main class="relative pt-16 bg-surface w-full min-h-screen px-space-lg py-space-lg"><div class="flex flex-col w-full">
+<!-- Header & Context Banner -->
+<div class="mb-space-xl">
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-sm">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-3 py-1 rounded-full text-secondary">
+<span class="material-symbols-outlined text-[16px] text-accent-cyan" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface">Trámite 100% Digital con Validación CISAC / DNDA</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="inline-flex items-center gap-2 bg-surface-container-low hover:bg-surface-container text-on-surface px-3.5 py-1.5 rounded-lg text-label-md font-label-md transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">drafts</span>
+<span>Borradores Guardados</span>
+<span class="bg-secondary text-on-secondary text-[10px] font-bold px-1.5 py-0.5 rounded-full">2</span>
+</button>
+<button class="inline-flex items-center gap-1.5 bg-surface-container-lowest hover:bg-surface-container-low text-secondary px-3.5 py-1.5 rounded-lg text-label-md font-label-md transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">help_outline</span>
+<span>Guía de Declaración</span>
+</button>
+</div>
+</div>
+<div class="max-w-4xl">
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight mb-space-xs">
+        Declaración y Registro de Nueva Obra Musical
+      </h1>
+<p class="font-body-lg text-body-lg text-text-secondary">
+        Complete la información técnica, coautores y material sonoro o partitura para el resguardo de derechos morales y patrimoniales conforme al régimen de la Ley 11.723 de Propiedad Intelectual.
+      </p>
+</div>
+</div>
+<!-- Stepper de 4 Fases -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-sm mb-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md relative">
+<!-- Paso 1 -->
+<div class="flex items-center gap-space-sm relative z-10">
+<div class="w-10 h-10 rounded-full bg-status-success text-on-primary flex items-center justify-center font-label-lg text-label-lg shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm text-status-success block">Paso 1 · Verificado</span>
+<span class="font-headline-sm text-headline-sm text-on-surface truncate block">Datos de la Obra</span>
+</div>
+</div>
+<!-- Paso 2 (Activo) -->
+<div class="flex items-center gap-space-sm relative z-10">
+<div class="w-10 h-10 rounded-full bg-primary-container text-accent-cyan flex items-center justify-center font-label-lg text-label-lg shrink-0 shadow-sm ring-4 ring-secondary/20">
+<span>02</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm text-secondary block font-bold">Paso 2 · En Edición</span>
+<span class="font-headline-sm text-headline-sm text-on-surface truncate block">Autores y Porcentajes</span>
+</div>
+</div>
+<!-- Paso 3 -->
+<div class="flex items-center gap-space-sm relative z-10 opacity-70">
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-lg text-label-lg shrink-0">
+<span>03</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm text-text-muted block">Paso 3</span>
+<span class="font-headline-sm text-headline-sm text-on-surface truncate block">Partituras y Audio</span>
+</div>
+</div>
+<!-- Paso 4 -->
+<div class="flex items-center gap-space-sm relative z-10 opacity-60">
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-lg text-label-lg shrink-0">
+<span>04</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm text-text-muted block">Paso 4</span>
+<span class="font-headline-sm text-headline-sm text-on-surface truncate block">Revisión y Firma DNDA</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Layout Principal: Formulario + Asistencia Lateral -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Columna Principal: Formularios y Tarjetas de Carga -->
+<div class="lg:col-span-8 space-y-space-xl">
+<!-- A. Tarjeta: Identificación de la Creación Musical -->
+<section class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-md mb-space-lg bg-surface-container-low -mx-space-lg -mt-space-lg p-space-lg rounded-t-xl">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">music_note</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">1. Identificación de la Creación Musical</h2>
+<p class="font-body-sm text-body-sm text-text-secondary">Identificadores unívocos de la composición y metadatos de clasificación.</p>
+</div>
+</div>
+<span class="bg-surface-card text-status-success font-label-sm text-label-sm px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-status-success"></span>
+            Revisión automática SADAIC
+          </span>
+</div>
+<div class="space-y-space-md">
+<!-- Título y Validación -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="work-title">
+              Título Oficial de la Obra <span class="text-status-error">*</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all pr-32 shadow-inner" id="work-title" placeholder="Ej. Crimen, Los Dinosaurios, Adiós Nonino" type="text" value="Puente Estelar en Sol Menor"/>
+<div class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5 text-status-success bg-surface-container-high px-2 py-1 rounded text-[11px] font-label-sm">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>Sin homónimos activos</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-text-muted mt-1">Registrar con mayúsculas y minúsculas estándar. Se verificará colisión fonética en el Repertorio Único Argentino.</p>
+</div>
+<!-- Subtítulo o versión alternativa -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="work-subtitle">
+                Subtítulo o Título Alternativo (Opcional)
+              </label>
+<input class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all shadow-inner" id="work-subtitle" placeholder="Ej. Versión Acústica Cuarteto" type="text"/>
+</div>
+<!-- Género Musical -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="genre-select">
+                Género / Ritmo Principal <span class="text-status-error">*</span>
+</label>
+<select class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all" id="genre-select">
+<option selected="" value="rock-nacional">Rock Nacional / Pop Rock</option>
+<option value="tango">Tango / Milonga / Vals Porteño</option>
+<option value="folclore">Folclore / Chacarera / Zamba</option>
+<option value="urbano">Trap / Hip-Hop / R&amp;B Contemporáneo</option>
+<option value="sinfonica">Música Académica / Sinfónica / Cámara</option>
+<option value="electronica">Electrónica / Sintetizada / Ambient</option>
+<option value="cumbia">Cumbia / Cuarteto / Música Tropical</option>
+</select>
+</div>
+</div>
+<!-- Tipo de Obra y Metadatos -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="work-type">
+                Naturaleza de la Composición <span class="text-status-error">*</span>
+</label>
+<select class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all" id="work-type">
+<option selected="" value="cancion">Canción (Letra y Música)</option>
+<option value="instrumental">Instrumental Puro</option>
+<option value="letra-sola">Letra Sola (Texto Poético)</option>
+<option value="musica-sola">Música Sola</option>
+<option value="arreglo-dp">Arreglo sobre Dominio Público</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="duration">
+                Duración (mm:ss) <span class="text-status-error">*</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all" id="duration" placeholder="03:30" type="text" value="03:45"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-text-muted text-[18px]">timer</span>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="creation-date">
+                Fecha de Creación <span class="text-status-error">*</span>
+</label>
+<input class="w-full bg-surface-container-lowest text-on-surface px-3.5 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-border-focus transition-all" id="creation-date" type="date" value="2025-02-10"/>
+</div>
+</div>
+<!-- Códigos Internacionales -->
+<div class="p-space-md bg-surface-container-low rounded-lg grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1" for="iswc-field">
+                Código ISWC (si fue emitido por CISAC exterior)
+              </label>
+<input class="w-full bg-surface-card text-on-surface px-3 py-2 rounded-lg font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-secondary" id="iswc-field" placeholder="T-034.523.891-2" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1" for="isrc-field">
+                Código ISRC Fonograma Matriz (CAPIF)
+              </label>
+<input class="w-full bg-surface-card text-on-surface px-3 py-2 rounded-lg font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-secondary" id="isrc-field" placeholder="AR-F12-25-00192" type="text"/>
+</div>
+</div>
+</div>
+</section>
+<!-- B. Tarjeta: Reparto de Derechos y Coautorías -->
+<section class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-md mb-space-lg bg-surface-container-low -mx-space-lg -mt-space-lg p-space-lg rounded-t-xl">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">group</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">2. Reparto de Derechos y Coautorías (Porcentajes)</h2>
+<p class="font-body-sm text-body-sm text-text-secondary">Estatuto SADAIC: 50% rama Letra + 50% rama Música = 100% Total de la Creación.</p>
+</div>
+</div>
+<span class="bg-primary text-accent-cyan font-label-sm text-label-sm px-3 py-1 rounded-full shadow-sm">
+            Normativa CISAC Art. 34
+          </span>
+</div>
+<!-- Alerta de Regla Matemática SADAIC -->
+<div class="p-space-md bg-surface-container rounded-lg mb-space-md flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">info</span>
+<div class="text-body-sm font-body-sm text-on-surface">
+<span class="font-bold text-on-surface">Regla de Distribución Legal Obligatoria:</span>
+            Para obras con género canción, la mitad de los derechos corresponde a los autores de la letra (50%) y la otra mitad a los compositores de la música (50%). Cada sector debe totalizar su 50% exacto para ser validado.
+          </div>
+</div>
+<!-- Tabla Interactiva de Autores -->
+<div class="overflow-x-auto mb-space-md rounded-lg bg-surface-container-lowest shadow-sm">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider">
+<tr>
+<th class="py-3 px-4">Autor / Titular Registrado</th>
+<th class="py-3 px-4">Rol en la Obra</th>
+<th class="py-3 px-3 text-center">Letra (Máx 50%)</th>
+<th class="py-3 px-3 text-center">Música (Máx 50%)</th>
+<th class="py-3 px-3 text-center">Total Obra</th>
+<th class="py-3 px-4 text-right">Acción</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-subtle text-on-surface">
+<!-- Autor Principal (Solicitante) -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3.5 px-4">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-accent-cyan flex items-center justify-center font-bold text-xs">
+                      GC
+                    </div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">Gustavo Cerati (Legajo AR-48.291-A)</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">badge</span>
+                        Socio Activo SADAIC · CUIT 20-14289381-4
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-block bg-surface-container-high text-on-surface px-2.5 py-1 rounded text-label-sm font-label-sm">
+                    Autor (Letra) y Compositor (Música)
+                  </span>
+</td>
+<td class="py-3.5 px-3 text-center">
+<span class="font-label-md text-label-md text-on-surface font-bold">50.00%</span>
+</td>
+<td class="py-3.5 px-3 text-center">
+<span class="font-label-md text-label-md text-on-surface font-bold">50.00%</span>
+</td>
+<td class="py-3.5 px-3 text-center">
+<span class="font-label-lg text-label-lg text-secondary font-bold">100.00%</span>
+</td>
+<td class="py-3.5 px-4 text-right">
+<span class="text-text-muted text-label-sm font-label-sm italic">Titular Solicitante</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Selector / Modal Inline para añadir coautor -->
+<div class="p-space-md bg-surface-container-low rounded-lg mb-space-md flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">person_add</span>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">¿Esta obra cuenta con coautores o editor musical?</h4>
+<p class="font-label-sm text-label-sm text-text-secondary">Incorpore otros socios SADAIC, letristas invitados o editoriales cesionarias.</p>
+</div>
+</div>
+<button class="inline-flex items-center gap-2 bg-surface-card hover:bg-surface-container text-on-surface px-4 py-2 rounded-lg font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">add_circle</span>
+<span>Agregar Coautor o Editor</span>
+</button>
+</div>
+<!-- Indicador Visual de Balance Porcentual -->
+<div class="p-space-md bg-primary-container text-on-primary rounded-xl">
+<div class="flex flex-wrap items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[20px]">task_alt</span>
+<span class="font-label-lg text-label-lg text-on-primary">Balance de Titularidad: 100% Asignado</span>
+</div>
+<span class="font-label-sm text-label-sm text-accent-cyan font-bold tracking-wider uppercase">
+              Planilla Válida para Homologación
+            </span>
+</div>
+<!-- Barra doble: Letra + Música -->
+<div class="w-full bg-on-primary-container/30 h-3 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full transition-all" style="width: 50%;" title="Letra: 50%"></div>
+<div class="bg-accent-cyan h-full transition-all" style="width: 50%;" title="Música: 50%"></div>
+</div>
+<div class="flex justify-between items-center mt-2 text-label-sm font-label-sm text-on-primary-container">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> Letra Asignada: 50% / 50%</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-accent-cyan"></span> Música Asignada: 50% / 50%</span>
+<span class="font-bold text-on-primary">Total: 100.00%</span>
+</div>
+</div>
+</section>
+<!-- C. Tarjeta: Carga de Partituras, Letra y Maqueta Sonora -->
+<section class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-md mb-space-lg bg-surface-container-low -mx-space-lg -mt-space-lg p-space-lg rounded-t-xl">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">folder_zip</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">3. Carga de Partituras, Letra y Maqueta Sonora</h2>
+<p class="font-body-sm text-body-sm text-text-secondary">Depósito técnico para archivo pericial y análisis por algoritmos de monitoreo de radiodifusión.</p>
+</div>
+</div>
+<span class="bg-surface-card text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-full shadow-sm">
+            Formatos Aceptados: PDF, MP3, WAV
+          </span>
+</div>
+<div class="space-y-space-lg">
+<!-- 1. Partitura / Melodía Escrita (PDF) -->
+<div>
+<div class="flex items-center justify-between mb-2">
+<label class="font-label-md text-label-md text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">queue_music</span>
+                Partitura Musical / Guión Melódico en PDF <span class="text-status-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-text-muted">Requisito DNDA obligatorio</span>
+</div>
+<!-- Archivo Adjunto (Estado cargado) -->
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container text-accent-cyan flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">picture_as_pdf</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">partitura_melodia_armonia_sol_menor.pdf</span>
+<div class="flex items-center gap-space-sm text-label-sm font-label-sm text-text-secondary">
+<span>1.84 MB</span>
+<span>·</span>
+<span class="text-status-success font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                      Certificado con Hash SHA-256
+                    </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-on-surface-variant hover:text-secondary rounded hover:bg-surface-container transition-colors" title="Previsualizar" type="button">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+<button class="p-2 text-on-surface-variant hover:text-status-error rounded hover:bg-surface-container transition-colors" title="Eliminar y reemplazar" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 2. Letra Completa de la Obra -->
+<div>
+<div class="flex items-center justify-between mb-2">
+<label class="font-label-md text-label-md text-on-surface flex items-center gap-1.5" for="lyrics-editor">
+<span class="material-symbols-outlined text-[18px] text-secondary">article</span>
+                Letra Completa de la Canción <span class="text-status-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-secondary cursor-pointer hover:underline">Importar desde archivo .txt / .docx</span>
+</div>
+<textarea class="w-full bg-surface-container-lowest text-on-surface p-space-md rounded-lg font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-border-focus transition-all leading-relaxed shadow-inner" id="lyrics-editor" placeholder="Escriba o pegue la letra exacta con estrofas y estribillos..." rows="6">(Estrofa 1)
+Cae la noche sobre el puente de cristal,
+las luces titilan con pulso ancestral.
+Un eco lejano me invita a cruzar,
+buscando la clave que empieza a sonar.
+
+(Estribillo)
+Puente estelar, llévame al mar,
+donde el acorde no puede callar.
+Sombra y reflejo en sol menor,
+gira la rueda de nuestro dolor.</textarea>
+<p class="font-label-sm text-label-sm text-text-muted mt-1">Este texto será cotejado ante el Fondo Nacional de las Artes y el Registro Nacional de la Propiedad Intelectual.</p>
+</div>
+<!-- 3. Audio / Maqueta de Referencia (Fingerprint acústico) -->
+<div>
+<div class="flex items-center justify-between mb-2">
+<label class="font-label-md text-label-md text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-secondary">graphic_eq</span>
+                Audio / Maqueta de Referencia (Monitoreo de Radiodifusión)
+              </label>
+<span class="font-label-sm text-label-sm text-status-warning bg-surface-container px-2 py-0.5 rounded font-medium">Recomendado para detección digital</span>
+</div>
+<!-- Drag & Drop Zone -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg text-center hover:bg-surface-container-low transition-all cursor-pointer shadow-sm group">
+<div class="w-14 h-14 mx-auto rounded-full bg-surface-container-high text-secondary flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[30px]">cloud_upload</span>
+</div>
+<h5 class="font-label-lg text-label-lg text-on-surface mb-1">Haga clic o arrastre el archivo de audio aquí</h5>
+<p class="font-body-sm text-body-sm text-text-secondary max-w-md mx-auto mb-3">
+                Archivos en formato MP3 (mínimo 192 kbps) o WAV estéreo. Máximo 50 MB por obra.
+              </p>
+<div class="inline-flex items-center gap-2 bg-primary text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-accent-cyan">upload_file</span>
+<span>Explorar Archivos Locales</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- D. Tarjeta: Declaración Jurada y Condiciones Legales -->
+<section class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<div class="flex items-start gap-space-md">
+<div class="mt-1">
+<input checked="" class="w-5 h-5 accent-secondary rounded cursor-pointer" id="sw-legal" type="checkbox"/>
+</div>
+<div>
+<label class="font-label-lg text-label-lg text-on-surface cursor-pointer select-none" for="sw-legal">
+              Declaración Jurada de Originalidad y Autenticidad (Ley 11.723)
+            </label>
+<p class="font-body-sm text-body-sm text-text-secondary mt-1">
+              Declaro bajo juramento de ley que la composición aquí descripta es una obra inédita y original de mi autoría / coautoría, deslindando expresamente a SADAIC de cualquier reclamo judicial o extrajudicial por plagio o infracción de marcas y derechos de terceros. Autorizo la verificación en las bases mundiales de CISAC y BMAT.
+            </p>
+<div class="mt-space-sm flex items-center gap-space-md text-label-sm font-label-sm text-secondary">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">gavel</span>
+                Términos y Condiciones Legales
+              </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+                Token Criptográfico DNDA
+              </span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Barra Fija / Flotante Inferior de Acciones -->
+<div class="bg-surface-card rounded-xl p-space-md shadow-lg sticky bottom-6 z-30">
+<div class="flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<button class="inline-flex items-center gap-2 bg-surface-container-low hover:bg-surface-container text-on-surface px-4 py-2.5 rounded-lg font-label-md text-label-md transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">save</span>
+<span>Guardar Borrador</span>
+</button>
+<button class="inline-flex items-center gap-2 bg-surface-container-low hover:bg-surface-container text-on-surface px-4 py-2.5 rounded-lg font-label-md text-label-md transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span>Descargar Previsualización (PDF)</span>
+</button>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="inline-flex items-center gap-2 bg-primary hover:bg-primary-container text-on-primary px-6 py-3 rounded-lg font-label-lg text-label-lg transition-all shadow-md group" type="button">
+<span class="material-symbols-outlined text-accent-cyan text-[20px] group-hover:rotate-12 transition-transform">lock</span>
+<span>Continuar a Firma Digital y Envío al DNDA</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Columna Lateral: Asistencia Técnica, FAQ & Soporte -->
+<aside class="lg:col-span-4 space-y-space-lg">
+<!-- Tarjeta Resumen del Trámite -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">assignment</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Resumen de Expediente</h3>
+<span class="font-label-sm text-label-sm text-text-muted">ID Trámite: SAD-2025-09821</span>
+</div>
+</div>
+<div class="space-y-space-sm font-body-sm text-body-sm text-text-secondary pb-space-md">
+<div class="flex justify-between items-center py-1">
+<span>Socio Solicitante:</span>
+<span class="font-label-md text-label-md text-on-surface">Gustavo Cerati</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span>N° de Legajo:</span>
+<span class="font-label-md text-label-md text-on-surface">AR-48.291-A</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span>Arancel de Registro:</span>
+<span class="font-label-md text-label-md text-status-success font-bold">100% Bonificado (Socio)</span>
+</div>
+<div class="flex justify-between items-center py-1">
+<span>Plazo de Homologación:</span>
+<span class="font-label-md text-label-md text-on-surface">48 a 72 hs hábiles</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm mt-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">security</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Protegido por sellado de tiempo de la Infraestructura de Firma Digital de la República Argentina (ONTI).</span>
+</div>
+</div>
+<!-- FAQ Rápida para Compositores -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-md flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">quiz</span>
+          Preguntas Frecuentes
+        </h3>
+<div class="space-y-space-md">
+<!-- FAQ 1 -->
+<div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">¿Cómo se calculan los porcentajes de coautoría?</h4>
+<p class="font-body-sm text-body-sm text-text-secondary leading-snug">
+              La obra se divide en dos mitades autónomas: 50% para la Letra y 50% para la Música. Si usted compuso ambas áreas en solitario, le corresponde el 100% de la obra (50% + 50%).
+            </p>
+</div>
+<!-- FAQ 2 -->
+<div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">¿Qué sucede si un coautor no está en SADAIC?</h4>
+<p class="font-body-sm text-body-sm text-text-secondary leading-snug">
+              Puede ingresarlo mediante su sociedad internacional hermana (BMI, ASCAP, SGAE, AGADU) con su IPI number, o como autor no asociado con su CUIT para reserva de fondos en cuenta especial.
+            </p>
+</div>
+<!-- FAQ 3 -->
+<div>
+<h4 class="font-label-md text-label-md text-on-surface mb-1">¿Es obligatoria la partitura escrita?</h4>
+<p class="font-body-sm text-body-sm text-text-secondary leading-snug">
+              Sí. Conforme al Decreto Reglamentario 41.233/34 de la Ley 11.723, el depósito de partitura o guión melódico cifrado es requisito inexcusable para la emisión del título de propiedad intelectual.
+            </p>
+</div>
+</div>
+</div>
+<!-- Mesa de Ayuda y Contacto SADAIC -->
+<div class="bg-primary-container text-on-primary rounded-xl p-space-lg shadow-md">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="material-symbols-outlined text-accent-cyan text-[28px]">support_agent</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">Mesa de Ayuda a Socios</h4>
+<span class="font-label-sm text-label-sm text-on-primary-container">Departamento de Registro de Repertorio</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container mb-space-md leading-relaxed">
+          Si tiene dudas respecto al encuadre legal de arreglos, seudónimos artísticos o herencias sucesorias, nuestro equipo pericial se encuentra disponible.
+        </p>
+<div class="space-y-space-sm">
+<a class="flex items-center justify-between p-2.5 bg-surface-card/10 hover:bg-surface-card/15 rounded-lg transition-colors text-on-primary text-label-md font-label-md" href="tel:08003337232">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-accent-cyan">call</span>
+<span>Línea Gratuita Nacional</span>
+</span>
+<span class="text-accent-cyan font-bold">0800-333-SADAIC</span>
+</a>
+<a class="flex items-center justify-between p-2.5 bg-surface-card/10 hover:bg-surface-card/15 rounded-lg transition-colors text-on-primary text-label-md font-label-md" href="https://wa.me/5491140000000" target="_blank">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-status-success">chat</span>
+<span>WhatsApp de Guardia Legal</span>
+</span>
+<span class="text-on-primary font-bold">+54 9 11 5821-9900</span>
+</a>
+</div>
+<div class="mt-space-md text-[11px] text-on-primary-container text-center font-label-sm">
+          Atención de Lunes a Viernes de 9:00 a 18:00 hs (Horario de Buenos Aires).
+        </div>
+</div>
+</aside>
+</div>
+</div></main></div></body></html>
